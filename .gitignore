@@ -1,0 +1,29 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*service*account*.json
+*firebase-adminsdk*.json
+credentials*.json
+secrets.*
+
+# Java build output and local IDE state
+*.class
+build/
+dist/
+out/
+target/
+bin/
+.gradle/
+.idea/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
